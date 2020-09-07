@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:linear-gradient(rgba(0, 0, 0, .2),rgba(0, 0,0,.2)),url('./asset/Saitama.jpg') no-repeat;
+    background-size: 1550px;
+}
+.container{
+    top: 30px;
+    position: relative;
+    text-align:center;
+}
+h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+#input{
+    width: 250px;
+    height: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-transform: lowercase ;
+    outline: none;
+}
+button{
+    width: 120px;
+    height: 40px;
+    background-color: #e43838;
+    color: #fff;
+    padding: 5px;
+    margin: 20px 30px;
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+button:hover{
+    transform: scale(.95);
+    background-color: #e43a3acc;
+}
+p{
+    color: #fff;
+}
+li{
+    list-style-type: none;
+    width: 350px;
+    height:30px;
+    margin: auto;
+    background-color:#efff5c;
+    color:#111;
+    border: 1px solid rgb(0, 0, 0);   
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 900;
+    text-transform:lowercase;
+    letter-spacing: 2px;
+    padding: 10px;
+}
